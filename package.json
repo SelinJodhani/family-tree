@@ -1,0 +1,22 @@
+{
+  "name": "family-tree",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "create:bin": "npm i -g .",
+    "test": "sh tests/sample-input.sh",
+    "test:run": "sh tests/run-queries.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^8.7.0",
+    "commander": "^11.0.0"
+  },
+  "bin": {
+    "family-tree": "./src/main.js"
+  }
+}
