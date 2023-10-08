@@ -36,8 +36,8 @@ family-tree add person 'Amit Dhakad'
 family-tree add person 'Priya Dhakad'
 family-tree add person 'KK Dhakad'
 
-family-tree add relationship father
-family-tree add relationship son
+family-tree add relationship 'father'
+family-tree add relationship 'son'
 
 family-tree connect 'Amit Dhakad' as son of 'KK Dhakad'
 family-tree connect 'Priya Dhakad' as daughter of 'KK Dhakad'
